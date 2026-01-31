@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Preposition Quiz</title>
+</head>
+<body>
+
+<h2>Preposition Quiz</h2>
+
+<p>1. He is sitting ___ the chair.</p>
+<button onclick="check('a')">on</button>
+<button onclick="check('b')">in</button>
+<button onclick="check('c')">at</button>
+
+<p id="result"></p>
+
+<script>
+function check(answer){
+if(answer == 'a'){
+document.getElementById("result").innerHTML = "Correct!";
+}
+else{
+document.getElementById("result").innerHTML = "Wrong!";
+}
+}
+</script>
+
+</body>
+</html>
