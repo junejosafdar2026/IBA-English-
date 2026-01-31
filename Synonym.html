@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Synonyms Quiz</title>
+</head>
+<body>
+
+<h2>Synonym Quiz</h2>
+
+<p>1. Synonym of "Happy"?</p>
+<button onclick="check('a')">Sad</button>
+<button onclick="check('b')">Joyful</button>
+<button onclick="check('c')">Angry</button>
+
+<p id="result"></p>
+
+<script>
+function check(answer){
+if(answer == 'b'){
+document.getElementById("result").innerHTML = "Correct!";
+}
+else{
+document.getElementById("result").innerHTML = "Wrong!";
+}
+}
+</script>
+
+</body>
+</html>
