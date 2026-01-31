@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Reading Comprehension</title>
+</head>
+<body>
+
+<h2>Reading Comprehension</h2>
+
+<p>
+Ali is a hardworking student. He wakes up early in the morning and studies daily. 
+He believes that success comes from discipline and consistency.
+</p>
+
+<p>1. What kind of student is Ali?</p>
+<button onclick="check('a')">Lazy</button>
+<button onclick="check('b')">Hardworking</button>
+<button onclick="check('c')">Careless</button>
+
+<p id="result"></p>
+
+<script>
+function check(answer){
+if(answer == 'b'){
+document.getElementById("result").innerHTML = "Correct!";
+}
+else{
+document.getElementById("result").innerHTML = "Wrong!";
+}
+}
+</script>
+
+</body>
+</html>
