@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Antonyms Quiz</title>
+</head>
+<body>
+
+<h2>Antonym Quiz</h2>
+
+<p>1. Antonym of "Hot"?</p>
+<button onclick="check('a')">Warm</button>
+<button onclick="check('b')">Cool</button>
+<button onclick="check('c')">Cold</button>
+
+<p id="result"></p>
+
+<script>
+function check(answer){
+if(answer == 'c'){
+document.getElementById("result").innerHTML = "Correct!";
+}
+else{
+document.getElementById("result").innerHTML = "Wrong!";
+}
+}
+</script>
+
+</body>
+</html>
